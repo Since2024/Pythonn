@@ -24,3 +24,7 @@
 # print(type(air), type(water))
 
 
+#method is similar to function but it is used with object
+#alphabet = 'abcdefghijklmnopqrstuvwxyz'
+#alphabet.find('z') output ayena cause vscode is not interactive shell to automatically show output
+# print(alphabet.find('z')) #find method is used to find the index
