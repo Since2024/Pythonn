@@ -28,3 +28,15 @@
 #alphabet = 'abcdefghijklmnopqrstuvwxyz'
 #alphabet.find('z') output ayena cause vscode is not interactive shell to automatically show output
 # print(alphabet.find('z')) #find method is used to find the index
+
+# Method is similiar to function that is tied to object and class
+# alphabet = "abcdefghijklmnopqrstuvwxyz" 
+# text = "Zaltan" i am using this variable to find position of alphabet strings
+# index = print(alphabet.find(text[3])) method find is assigned to index to find text[3] which is t from aphabets.
+
+#.find() returns the index of matching character inside  string if not find return -1
+# text = "Zaltan"
+# print(text.lower()) #this will covert string to lower case
+# index = print(alphabet.find(text[0].lower())) inside we can call like this too
+
+# shifted = alphabet[index] this is store the output of index in shifted variable
