@@ -17,3 +17,12 @@
 #             timeout=10
 #         )
 #         time.sleep(3600)
+
+
+name = "Hasan"
+age = 999
+race = "drAGON"
+
+F_formattedSting = f"{name} is a ancient {race} from {age} years ago."
+print(F_formattedSting)
+
