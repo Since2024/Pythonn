@@ -40,3 +40,18 @@
 # index = print(alphabet.find(text[0].lower())) inside we can call like this too
 
 # shifted = alphabet[index] this is store the output of index in shifted variable
+
+def main():
+    health = 10
+    armor = 5
+    add_armor(health, armor)
+
+def add_armor(h, a):
+    new_health = h + a
+    print_health(new_health)
+
+def print_health(new_health):
+    print(f"The player now has {new_health} health")
+
+# call entrypoint last
+main()
