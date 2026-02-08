@@ -1,13 +1,23 @@
 import ipywidgets as w
 from IPython.display import display
 
-btn = w.Button(description="Click Me", button_style = "suceess")
+# Create button
+btn = w.Button(
+    description="Click Me",
+    button_style="success"
+)
 
-out = w.output()
+# Create output area
+out = w.Output()
+
+# Click handler
 def on_click(b):
     with out:
         out.clear_output()
-        print("Button clicked..")
+        print("Button clicked!")
 
+# Link button to function
 btn.on_click(on_click)
+
+# Display widgets
 display(btn, out)
