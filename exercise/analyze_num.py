@@ -16,5 +16,5 @@ def analyze_numbers(n):
 
 
 # Program starts here
-limit = int(input("Enter a number: "))
+limit = int(input("Enter a number limit: "))
 analyze_numbers(limit)
