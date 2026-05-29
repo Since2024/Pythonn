@@ -1,4 +1,4 @@
-//Display only those characters which are present at an even index number in given string.
+#Display only those characters which are present at an even index number in given string.
 word = "pynative"
 print("Original String is ", word)
 
